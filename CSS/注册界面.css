@@ -1,0 +1,377 @@
+body,
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      a{
+        text-decoration: none;
+      }
+      .customer-header {
+        width: 100%;
+        height: 48px;
+        background: rgba(0, 0, 0, 0.05);
+      }
+      .customer-header .box {
+        width: 1200px;
+        height: 48px;
+        margin: auto;
+      }
+      .customer-header .box img {
+        width: 108px;
+        height: 24px;
+        margin-left: 4px;
+        margin-top: 12px;
+        vertical-align: middle;
+      }
+      .hwid-root {
+        width: 100%;
+        height: 745px;
+        font-family: Microsoft Yahei, sans-serif, STHeiti, Simsun, STSong;
+        color: #191919;
+      }
+      .hwid-root .hwid-main {
+        width: 1200px;
+        height: 745px;
+        margin: auto;
+      }
+      .hwid-root .hwid-main .form {
+        width: 440px;
+        height: 745px;
+        padding: 60px 260px 38px 260px;
+        margin: auto;
+      }
+      .hwid-root .hwid-main .form .text1 {
+        width: 440px;
+        height: 76px;
+        text-align: center;
+        margin: 10px 0 60px;
+      }
+      .hwid-root .hwid-main .form .all {
+        margin-top: 20px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 8px;
+        border: 1px solid transparent;
+        margin-top: 40px;
+      }
+      .hwid-root .hwid-main .form .text1 .box2 {
+        font-size: 32px;
+        color: #191919;
+        display: inline;
+      }
+      .hwid-root .hwid-main .form .text1 .line2 {
+        font-size: 18px;
+        color: #191919;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 10px;
+        margin-top: -15px;
+      }
+      .hwid-root .hwid-main .form .text1 .line2 .line2- {
+        text-decoration: none;
+        color: #256FFF;
+      }
+      .hwid-root .hwid-main .form .text1 .line2 .line2-:hover {
+        cursor: pointer;
+      }
+
+      .hwid-root .hwid-main .form .text2 {
+        margin-top: 28px;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 1px;
+        height: 48px;
+        font-size: 14px;
+        border: 1px solid #fffbfb;
+        border-radius: 10px;
+        display: block;
+        position: relative;
+      }
+      .hwid-root .hwid-main .form .text2 .text2box1 {
+        display: inline-block;
+        width: 100%;
+      }
+      .hwid-root .hwid-main .form .text2 .text2box1 .text2box1left {
+        /* width: 70px; */
+        height: 48px;
+        padding: 0 16px;
+        line-height: 48px;
+        display: block;
+        float: left;
+      }
+      .hwid-root .hwid-main .form .text2 .text2box1 .text2box1right {
+        float: right;
+        line-height: 48px;
+        margin-right: 20px;
+      }
+      .hwid-root .hwid-main .form .text2 .text2box2 {
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        height: 48px;
+      }
+      .hwid-root .hwid-main .form .text2 .text2box2 .input-left {
+        float: left;
+        padding: 0 16px;
+        line-height: 48px;
+        height: 48px;
+        width: 133px;
+        position: relative;
+      }
+      .hwid-root .hwid-main .form .text2 .text2box2 .input-left:hover{
+        cursor: pointer;
+      }
+      .input-left .font {
+        height: 48px;
+        width: 65px;
+        display: block;
+        float: left;
+        overflow: hidden;
+      }
+
+      .input-left .insidebox{
+        width: 260px;
+        height: 360px;
+        background-color: #fff;
+        border-radius: 8px;
+        border: 1px solid rgba(0,0,0,.06);
+        box-shadow: 0 0 2px 2px rgba(0,0,0,.06);
+        position: relative;
+        top: -6px;
+        left: 15px;
+        z-index: 1000;
+        font-size: 12px;
+        color: #333;
+        overflow:hidden;
+        display: none;
+
+      }
+      .input-left .insidebox.active{
+        display: block;
+      }
+     .input-left .insidebox .list-module{
+        width: 255px;
+        height: 295px;
+        /* background-color: #256FFF; */
+        float: left;
+        display: block;
+        overflow-y: auto;
+      }
+      .input-left .insidebox .list-module .list-module-text{
+        font-size: 14px;
+        line-height: 20px;
+       cursor: pointer;
+       display: block;
+       padding: 8px 18px;
+      }
+      .input-left .insidebox .list-module .list-module-line{
+        
+        height: 1px;
+        width: 240px;
+        background-color: #e8e8e8;
+        float: right;
+      }
+   .insidebox .input-div{
+        width: 235px;
+        height: 36px;
+       margin: 12px 12px 18px 12px;
+        display: block;
+        overflow: hidden;
+        float: left;
+        background: rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+
+      }
+      .insidebox .input-div:hover{
+        border:1px solid blue;
+      }
+ 
+      .insidebox .input-div .search-text{
+        
+        float: left;
+        padding: 0 58px 0 40px;
+        border: 1px solid #fff;
+        display: block;
+        
+        line-height: 36px;border: none;
+      }
+      .insidebox .input-div .noValue{
+          background: url('../image/ic_search.svg') left 12px center no-repeat;
+          background-size: auto;
+          background-size: 20px 20px;
+      }
+
+     .disabled{
+      opacity: .38;
+      display: block;
+     }
+
+
+
+
+      .text2box2 .backgrondcmg {
+        background: url(https://hnid-drcn.cloud.hihonor.com/CAS/up/idmw_rss_68/js/mobile_rss/vuebuild/img/ic_hint_dropdown.svg)
+          no-repeat;
+        width: 12px;
+        height: 7px;
+        background-position: 50%;
+        background-size: contain;
+        float: left;
+        position: absolute;
+        top: 19px;
+        right: 65px;
+      }
+      .text2box2 .backgrondcmg:hover {
+        cursor: pointer;
+      }
+      .text2box2 .shade {
+        width: 1px;
+        height: 27px;
+        display: block;
+        background: rgba(0, 0, 0, 0.1);
+        float: left;
+        margin-top: 10.5px;
+        margin-left: 45px;
+      }
+      .text2box2 .input-content {
+        width: 250px;
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+        float: left;
+      }
+      .text2box2 .input-content .text2input {
+        /* color: #838383 !important;
+        font-size: 14px !important; */
+        background: none;
+        outline: none;
+        display: block;
+        width: 250px;
+        height: 48px;
+        border: none;
+        color: #838383 !important;
+  font-size: 14px !important;
+
+     
+      }
+
+
+    .text2  .messageInput{
+        width: 350px;
+        height: 48px;
+        border: none;
+        color: #838383 !important;
+font-size: 14px !important;
+        background: none;
+        outline: none;
+        margin-left: 16px;
+        position: relative;
+        float: left;
+      }
+      .text2 .getMessage{
+        width: 80px;
+        height: 48px;
+        border: none;
+        color: #2019e15d;
+        background: none;
+        outline: none;
+        padding-right: 15px;
+        float: right;
+      }
+
+
+      .hwid-root .hwid-main .form .text3{
+        width: 440px;
+        height: 88px;
+        margin-top: 50px;text-align: center;
+      }
+      .text3 .loginin{
+        border-radius: 8px;
+background: #256FFF;
+opacity: .38;
+border: 1px solid #ccc;
+width: 276px;
+font-size: 18px;
+font-weight: 400;
+display: inline-block;
+height: 48px;
+color: #fff;
+
+
+      }
+
+      .text3 span {
+        cursor: pointer;
+        font-size: 16px;
+color: #256fff;
+position: relative;
+top:16px;
+
+      }
+
+      .ft {
+      background: rgba(0, 0, 0, 0.05);
+      height: 110px;
+      position: absolute;
+      bottom: auto;
+      width: 100%;
+      min-width: 1024px;
+      text-align: center;
+             }
+                          .ft .ft-1{
+                            margin-top: 30px;
+                            text-align: center;
+        line-height: 20px;
+        height: 20px;
+        text-decoration: none;
+        color: #000!important;
+      }
+      .ft .ft-1 a{
+        color: #000;
+        
+      }
+      .ft .ft-1 .ft-em{
+        font-size: 16px;
+      color: #000;
+      margin: 0 10px;
+      }
+
+      .ft .ft-2{
+        line-height: 12px;
+      height: 12px;
+      margin-top: 10px;
+      color: #000;
+      opacity: 0.3;
+      text-align: center;
+      font-size: 14px;
+      }
+
+
+
+       .text2 .texteyeon1,.texteyeon2{
+        background-image:url('../image/eyeon.png');
+        height: 24px;
+        width: 24px;
+        display: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+         cursor: pointer;
+       float: right;
+       position: relative;
+       top: 12px;
+       right:18px ;
+       display: none;
+         
+        }
+        
+         .text2 .texteyeoff1,.texteyeoff2{
+        background-image:url('../image/eyeoff.svg');
+        height: 24px;
+        width: 24px;
+        background-repeat: no-repeat;
+        background-size: cover;
+         cursor: pointer;
+       float: right;
+       position: relative;
+       top: 12px;
+         right:18px ;
+         display: block;
+        }

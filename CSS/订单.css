@@ -1,0 +1,432 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ding-box{
+    width: 1652px;
+height: 74px;
+background-color: #fff;
+margin: auto;
+}
+.ding-box .ding-box-1
+{
+    width: 1200px;
+height: 49px;
+
+position: absolute;
+left:226px ;
+top: 10px;
+}
+.ding-box .ding-box-2{
+width: 274px;
+height: 36px;
+position: relative;
+float: left;
+margin-top: 4px;
+}
+.ding-box .ding-box-2 img{
+height: 21px;
+width: 120px;
+position: absolute;
+top: 7px;
+}
+.ding-box .ding-box-2 span{
+display: inline-block;
+margin-left: 26px;
+font-size: 22px;
+line-height: 36px;
+position: absolute;
+left: 150px;
+}
+.ding-box .ding-box-3{
+width: 320px;
+height: 49px;
+float: left;
+}
+.ding-box .ding-box-3 img{
+width: 320px;
+height: 49px;
+margin-left: 700px;
+}
+.ding-box-4{
+width: 1200px;
+height: 227px;
+background-color:#fff;
+margin: auto;
+margin-top: 20px;
+}
+.ding-box-5{
+width: 1120px;
+height: 30px;
+margin: auto;
+font-size: 18px;
+line-height: 50px;
+}
+.ding-box-6{
+width: 1140px;
+height: 142px;
+margin-top: 20px;
+margin-left: 20px;
+}
+.ding-box-7{
+width: 340px;
+height: 142px;
+border: solid 0.5px #a4a4a4;
+text-align: center;
+line-height: 130px;
+font-size: 14px;
+}
+.ding-box-8{
+width: 1200px;
+height: 650px;
+margin: auto;
+margin-top: 20px;
+background-color: #fff;
+position: relative;
+}
+.ding-box-9{
+width: 1122px;
+height: 545px;
+border: 1px solid #eaeaea;
+position: absolute;
+top: 30px;
+left: 40px;
+}
+.ding-box-9-1{
+height: 545px;
+width: 359px;
+position: relative;
+float: left;
+}
+.ding-box-9-2{
+height: 131px;
+width: 359px;
+border-bottom:1px solid #eaeaea; 
+border-top:none ;
+border-left: none;
+border-right: none;
+
+}
+
+.ding-box-9-2 p{
+font-size: 18px;
+text-align: center;
+}
+.ding-box-9-2 span{
+font-size: 18px;
+color: #ca141d;
+margin-left: 5px;
+margin-right: 7px;
+}
+.ding-box-9-3 {
+width: 319px;
+height: 21px;
+}
+.ding-box-9-3 img{
+height: 20px;
+width: 20px;
+position: absolute;
+top: 50px;
+left: 50px;
+}
+.ding-box-9-4 span{
+font-size: 14px;
+color: #3a3a3a;
+float: left;
+position: absolute;
+top: 50px;
+left: 100px;
+}
+.ding-box-10{
+width: 760px;
+height: 543px;
+border-right:1px solid #eaeaea;
+border-left: none;
+border-top: none;
+border-bottom: none;
+float: left;
+}
+
+.ding-box-11{
+width: 760px;
+height: 140px;
+border-right:none;
+border-left: none;
+border-top: none;
+border-bottom: 1px solid #eaeaea;
+}
+.ding-box-11 img{
+width: 100px;
+height: 100px;
+margin-top: 16px;
+float: left;
+}
+.ding-box-12{
+width: 600px;
+height: 29px;
+float: left;
+}
+.ding-box-12 ul{
+list-style: none;
+float: left;
+}
+.ding-box-12 ul li{
+float: left;
+font-size: 14px;
+margin-left: 50px;
+}
+.ding-box-13{
+width: 759px;
+height: 30px;
+margin-top: 20px;
+margin-left: 20px;
+position: relative;
+}
+.ding-box-13 .text-1{
+font-size: 18px;
+line-height: 30px;
+float: left;
+}
+.ding-box-13 .text-2{
+color: #a4a4a4;
+font-size: 14px;
+position: absolute;
+left: 130px;
+top: 10px;
+text-align: center;
+line-height: 14px;
+cursor: pointer;
+text-decoration: underline;
+
+}
+.ding-box-13 .text-3{
+float: right;
+font-size: 16px;
+color: #cb141e;
+line-height: 30px;
+position: absolute;
+left: 650px;
+top:0px;
+}
+.ding-box-13 .text-4{
+font-size: 14px;
+color: #3a3a3a;
+position: absolute;
+top: 30px;
+left: 530px;
+}
+.ding-box-14{
+width: 759px;
+height: 110px;
+margin-top: 20px;
+margin-left: 20px;
+position: relative;
+}
+.ding-box-14 .text-1{
+font-size: 18px;
+line-height: 30px;
+float: left;
+}
+.ding-box-14 .text-2{
+font-size: 12px;
+color: #a4a4a4;
+position: absolute;
+top: 6px;
+left:100px;
+}
+.ding-box-14 .text-3{
+font-size: 14px;
+color: #3a3a3a;
+position: absolute;
+top: 40px;
+left:100px;
+
+}
+.ding-box-15 {
+width: 759px;
+height: 56px;
+position: relative;
+margin-left: 20px;
+
+}
+.ding-box-15 .text-1{
+font-size: 18px;
+line-height: 30px;
+float: left;
+}
+.ding-box-15 img{
+width: 35px;
+height: 25px;
+float: left;
+margin-top: 5px;
+margin-left: 10px;
+}
+.ding-box-15 a{
+font-size: 14px;
+color: #ca141d ;
+float: left;
+margin-top: 5px;
+margin-left: 10px;
+}
+.ding-box-16{
+width: 759px;
+height: 21px;
+position: relative;
+margin-left: 20px;
+}
+.ding-box-16 .text-1{
+font-size: 18px;
+line-height: 30px;
+float: left;
+}
+.ding-box-16 img{
+width: 35px;
+height: 25px;
+float: left;
+margin-top: 5px;
+margin-left: 45px;
+}
+.ding-box-16 a{
+font-size: 14px;
+color: #ca141d ;
+float: left;
+margin-top: 5px;
+margin-left: 10px;
+}
+.ding-box-17{
+width: 759px;
+height: 21px;
+position: relative;
+margin-left: 20px;
+margin-top: 35px;
+}
+.ding-box-17 .text-1{
+font-size: 18px;
+line-height: 30px;
+float: left;
+}
+.ding-box-17 img{
+width: 35px;
+height: 25px;
+float: left;
+margin-top: 5px;
+margin-left: 45px;
+}
+.ding-box-17 a{
+font-size: 14px;
+color: #ca141d ;
+float: left;
+margin-top: 5px;
+margin-left: 10px;
+}
+.ding-box-18{
+height: 119px;
+width: 213px;
+
+margin-top: 230px;
+margin-left: 105px;
+position: relative;
+}
+.ding-box-18 ul li{
+font-size: 14px;
+color: #3a3a3a;
+list-style: none;
+width: 300px;
+}
+.ding-box-18 ul li span{
+margin-left: 25px;
+}
+.ding-box-18-text{
+font-weight: normal;
+color: #ca141d;
+font-size: 24px;
+}
+.ding-box-18-text1{
+position: absolute;
+left: 113px;
+}
+.ding-box-19{
+width: 1200px;
+height: 276px;
+margin: auto;
+background-color: #fff;
+margin-top: 10px;
+position: relative;
+}
+.ding-box-19-1{
+width: 250px;
+height: 197px;
+
+position: absolute;
+top: 79px;
+left: 950px;
+float: left;
+}
+.ding-box-19-1 .num1 {
+color: #3a3a3a;
+font-size: 18px;
+float: left;
+position: absolute;
+top: 8px;
+}
+.ding-box-19-1 .num2{
+color: #ca141d;
+font-size: 30px;
+float: left;
+position: absolute;
+left: 85px;
+
+}
+.ding-box-19-1 .num3{
+font-size: 14px;
+margin-top: 8px;
+color: #3a3a3a;
+float: left;
+position: absolute;
+top: 50px;
+margin-left: 120px;
+}
+.ding-box-19-2{
+height: 46px;
+width: 172px;
+background: #ca141d;
+position: absolute;
+top: 80px;
+left: 55px;
+}
+.ding-box-19-2 span{
+font-size: 18px;
+color: #fff;
+position: absolute;
+top: 10px;
+left: 50px;
+}
+
+
+.ding-box-7-1{
+height: 144px;
+width: 342px;
+border-radius: 10px;
+background-color: #f5eded;
+margin-left:0px;
+margin-top: -144px;
+display: none;
+}

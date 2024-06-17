@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车_荣耀商城</title>
+    <script src="JS/jquery-1.8.3.min.js"></script>
+    <script src="JS/购物车.js"></script>
+    <link rel="stylesheet" href="CSS/购物车.css">
+
+</head>
+
+<body>
+    
+    <!-- 作者：殷浪 start -->
+        <!-- 右侧悬浮导航栏 -->
+        <div id="fixed">
+            <div id="fixedbox">
+                <div class="fixedbox-common">
+                    <div class="tips">
+                        <a href="购物车.html"><span class="iconfont f24">&#xe63f;<br></span>
+                        <span class='tipfonts'> 购物车</span></a>
+                        
+                    </div>
+                    <div class="tips">
+                        <a href="##"><span class="iconfont f24">&#xe6f7;<br></span>
+                        <span class='tipfonts'> 在线客服</span></a>
+                        
+                    </div>
+                    <div class="tips" style="margin-bottom: 10px;">
+                        <a href="##"><span class="iconfont f24">&#xebbe;<br></span>
+                        <span class='tipfonts'> 自助服务</span></a>
+                        
+                    </div>
+                </div>
+                <div class="hungBar_top">
+                    <div class="tips">
+                        <span class="iconfont f24">&#xe623;<br></span>
+                        <span class='tipfonts'> 返回顶部</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- end -->
+    <div id="app">
+        <div class="bus">
+            <div class="bus-box-1">
+                <span class="num2"> HONOR</span>  
+                    <span class="num1">我的购物车</span>
+               
+                    
+            </div>
+         
+           
+            <hr>
+            <div class="bus-header">
+                <div class="bus-header-1">
+                    <input type="checkbox" name="selectAll" id="selectAll">
+                    <span>全选</span>
+                </div>
+                <div></div>
+                <div>商品名称</div>
+                <div>单价</div>
+                <div>数量</div>
+                <div>小计</div>
+                <div>操作</div>
+            </div>
+            <div class="bus-item">
+                <div>
+                    <input type="checkbox" class="selectItem" name="selectItem" id="selectItem">
+                </div>
+                <div>
+                    <img class="item-img" src="image/70.png">
+                </div>                
+                <div>
+                    <span>荣耀70</span>
+                </div>
+                <div>
+                    <span class="item-price">2569</span>元
+                </div>
+                <div>
+                    <span class="item-num-op">-</span>
+                    <input type="text" class="item-num" name="num" id="num" value="0">
+                    <span class="item-num-op">+</span>
+                </div>
+                <div>
+                    <span class="item-total">0</span>元
+                </div>
+                <div>
+                    <span class="item-remove">删除</span>
+                </div>
+            </div>
+            <div class="bus-item">
+                <div>
+                    <input type="checkbox" class="selectItem" name="selectItem" id="selectItem">
+                </div>
+                <div>
+                    <img class="item-img" src="image/magic4.png">
+                </div>                
+                <div>
+                    <span>Magic V</span>
+                </div>
+                <div>
+                    <spann class="item-price">3199</span>元
+                </div>
+                <div>
+                    <span class="item-num-op">-</span>
+                    <input type="text" class="item-num" name="num" id="num" value="0">
+                    <span class="item-num-op">+</span>
+                </div>
+                <div>
+                    <span class="item-total">0</span>元
+                </div>
+                <div>
+                    <span class="item-remove">删除</span>
+                </div>
+            </div>
+            <div class="bus-item">
+                <div>
+                    <input type="checkbox" class="selectItem" name="selectItem" id="selectItem">
+                </div>
+                <div>
+                    <img class="item-img" src="image/v.png">
+                </div>                
+                <div>
+                    <span>Magic X</span>
+                </div>
+                <div>
+                    <spann class="item-price">4699</span>元
+                </div>
+                <div>
+                    <span class="item-num-op">-</span>
+                    <input type="text" class="item-num" name="num" id="num" value="0">
+                    <span class="item-num-op">+</span>
+                </div>
+                <div>
+                    <span class="item-total">0</span>元
+                </div>
+                <div>
+                    <span class="item-remove">删除</span>
+                </div>
+            </div>
+
+            <div class="bus-footer">
+                <div>
+                    <a href="首页.html">继续购物</a>
+                    已购商品:<span class="buy-num">x</span>项
+                </div>                    
+               
+                <div>
+                    合计:<span class="buy-total-price">X</span>元
+                </div>
+                
+                <div>
+                    <a href="订单.html"><button class="pay" type="submit">去结算</button></a>
+                </div>
+                
+            </div>
+                
+        </div>
+        <div class="hr-10"></div>
+        <!-- 作者：张国全  start-->
+    <div class="footer-container">
+        <div class="slogan">
+            <ul>
+                <li class="s1">
+                    <a href="#">官方商城 品质保证</a>
+                </li>
+                <li class="s2">
+                    <a href="#">7天退货 15天换货</a>
+                </li>
+                <li class="s3">
+                    <a href="#">48元起免运费</a>
+                </li>
+                <li class="s4">
+                    <a href="#">1800+服务店 全国联保</a>
+                </li>
+                <div style="clear: both;"></div>
+            </ul>
+        </div>
+    </div>
+    <div class="service-container">
+        <div class="service">
+            <div class="service-l">
+                <dl>
+                    <dt>推荐产品</dt>
+                    <dd><a href="##">手机</a> </dd>
+                    <dd><a href="##">笔记本</a></dd>
+                    <dd><a href="##">平板</a></dd>
+                    <dd><a href="##">智慧屏</a></dd>
+                    <dd><a href="##">智能穿戴</a></dd>
+                    <dd><a href="##">智能家居</a></dd>
+                    <dd><a href="##">配件</a></dd>
+                </dl>
+                <dl>
+                    <dt>品牌</dt>
+                    <dd><a href="##">关于荣耀</a></dd>
+                    <dd><a href="##">新闻</a></dd>
+                    <dd><a href="##">活动</a></dd>
+                    <dd><a href="##">视频</a></dd>
+                    <dd><a href="##">加入荣耀</a></dd>
+                </dl>
+                <dl>
+                    <dt>购物相关</dt>
+                    <dd><a href="##">购物指南</a></dd>
+                    <dd><a href="##">退换货政策</a></dd>
+                    <dd><a href="##">配送方式</a></dd>
+                    <dd><a href="##">支付方式</a></dd>
+                    <dd><a href="##">常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>服务支持</dt>
+                    <dd><a href="##">增值服务</a></dd>
+                    <dd><a href="##">保修政策</a></dd>
+                    <dd><a href="##">备件价格查询</a></dd>
+                    <dd><a href="##">会员服务规则</a></dd>
+                    <dd><a href="##">价格保护规则</a></dd>
+                </dl>
+            </div>
+            <div class="service-m">
+                <dl>
+                    <dt>快速链接</dt>
+                    <dd><a href="##">荣耀俱乐部</a></dd>
+                </dl>
+            </div>
+            <div class="service-r">
+                <dl>
+                    <dd>商城服务热线</dd>
+                    <dd>
+                        <P class="NUM">400-88-95930</P>
+                    </dd>
+                    <dd><a href="#" class="ask"> <span>在线客服</span></a>
+                    </dd>
+                </dl>
+                <div class="clearfix">
+                    <h2>关注荣耀</h2>
+                    <img src="https://file05.c.hihonor.com/pimages//pages/templateContent/97617887090618871679.jpg">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="quan-countainer">
+    <div class="layout">
+        <div class="warrant">
+            <div class="link">
+                <a href="#">关于荣耀商城与隐私的声明</a>
+                <span class="sep">|</span>
+                <a href="#">荣耀商城服务协议</a>
+                <span class="sep">|</span>
+                <a href="#">关于荣耀商城推荐服务与隐私的声明</a>
+                <span class="sep">|</span>
+                <a href="#">荣耀商城推荐服务用户协议</a>
+                <span class="sep">|</span>
+                <a href="#">关于cookies</a>
+
+            </div>
+            <div class="link1">
+                <a href="#">
+                    Copyright © 2020-2022 荣耀终端有限公司 版权所有</a>
+                <span class="sep">|</span>
+                <a href="#">粤ICP备20047157号</a>
+                <span class="sep">|</span>
+                <a href="#">44030702003447号粤公网安备 </a>
+                <span class="sep">|</span>
+                <a href="#">增值电信业务许可证：粤B2-20201081</a>
+                <img src="https://file07.c.hihonor.com/pimages//pages/templateContent/54718326091612381745.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end -->
+
+    </div>
+
+</body>
+
+</html>

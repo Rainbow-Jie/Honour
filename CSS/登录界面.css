@@ -1,0 +1,573 @@
+body,
+ul,li,p {
+      margin: 0;
+      padding: 0;
+      font-family: Microsoft Yahei, sans-serif, STHeiti, Simsun, STSong;
+    }
+    a{
+      text-decoration: none;
+    }
+
+    @font-face {
+      font-family: 'iconfont2';
+      src: url('../iconfont2.ttf?t=1663226592057') format('truetype');
+    }
+    
+    .iconfont2 {
+      font-family: "iconfont2" !important;
+      font-size: 16px;
+      font-style: normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    
+
+    .customer-header {
+      width: 100%;
+      height: 48px;
+      background: rgba(0, 0, 0, 0.05);
+    }
+    .customer-header .box {
+      width: 1200px;
+      height: 48px;
+      margin: auto;
+    }
+    .customer-header .box img {
+      width: 108px;
+      height: 24px;
+      margin-left: 4px;
+      margin-top: 12px;
+      vertical-align: middle;
+    }
+    .header-title {
+      height: 41px;
+      width: 100%;
+      padding: 100px 0 80px;
+    }
+    .header-title .title {
+      font-size: 32px;
+      color: #191919;
+      text-align: center;
+      width: 100%;
+    }
+    .fullpage {
+        height: 534px;
+        width: 963px;
+        margin: auto;
+      }
+      .fullpage .fullpage-left {
+        width: 360px;
+        height: 334px;
+        display: block;
+        position: relative;
+        float: left;
+      }
+      .fullpage .fullpage-left .desc{
+        margin: auto;
+        line-height: 22px;
+max-width: 260px;
+color: #838383;
+}
+.fullpage .fullpage-left .desc .desc-foot{
+text-align: center;
+font-size: 14px;
+height: 48px;
+line-height: 24px;
+display: inline-block;
+}
+
+
+      .fullpage .fullpage-left .leftbox {
+        display: inline-block;
+        width: 160px;
+        height: 160px;
+        margin-left: 80px;
+        padding: 20px;
+        border: 1px solid #e6e6e6;
+        border-radius: 19px;
+        position: relative;
+      }
+      .fullpage .fullpage-left .icon-logo {
+        background-size: 100% !important;
+        height: 40px;
+        width: 40px;
+        background-repeat: no-repeat;
+        background-image: url('../image/ic_honor_logo.png');
+        display: block;
+        position: relative;
+        top: -120.2px;
+        left: 160px;
+      }
+
+      .fullpage .fullpage-left .leftbox img {
+        height: 160px;
+        width: 160px;
+      }
+      .fullpage .fullpage-line {
+        height: 500px;
+        width: 1px;
+        display: block;
+        float: left;
+        margin: 0 180px 0 60px;
+        border-style: none dashed none none;
+        border-width: 2px;
+        color: rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: -8;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+      .fullpage .fullpage-right {
+        width: 360px;
+        height: 493px;
+        display: block;
+        float: left;
+      }
+      .fullpage .fullpage-right  .span1 {
+        color: #256fff;
+        font-size: 16px;
+      }
+      .span1:hover{
+        cursor: pointer;
+      }
+      
+      .fullpage .fullpage-right .text2 {
+        margin: 0 0 24px 0;
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 1px;
+        height: 48px;
+        font-size: 14px;
+        border: 1px solid #fffbfb;
+        border-radius: 10px;
+      }
+      .fullpage .fullpage-right .text2-1 {
+        background: rgba(0, 0, 0, 0.05);
+        border-radius: 1px;
+        height: 48px;
+        font-size: 14px;
+
+        border-radius: 10px;
+        background: #256FFF;
+        opacity: .38;
+       margin-top: 40px;
+
+      }
+      .fullpage .fullpage-right .text2-1 .text2-1input{
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+        background: #256FFF;
+        line-height: 49.6px;
+        margin-left: 110px;
+      }
+
+      .fullpage .fullpage-right .text2-1 .text2-1input:hover{
+        cursor: pointer;
+      }
+
+      .ft{
+        width: 100%;
+        height: 110px;
+       
+      }
+      .fullpage .fullpage-right .text2box1left {
+        padding: 0 16px;
+        line-height: 48px;
+        color: #191919;
+        font-size: 12px;
+        float:left;
+      }
+      .fullpage .fullpage-right .text2box1right {
+        float: right;
+        line-height: 48px;
+        margin-right: 20px;
+        color: #191919;
+        font-size: 12px;
+      }
+      .fullpage .fullpage-right .text2 .userAccount{
+                border: none;
+                background: none;
+                outline: none;
+               color: #c4c4c4;
+                padding-top: 12px;
+                text-align: left;
+                height: 24px;
+                width: 100%;
+                margin-left: 16px;
+      }
+
+      .fullpage .fullpage-right .text2 .passwordInput{
+        width: 280px;
+        height: 48px;       
+        color: #c4c4c4;
+        background: none;
+        outline: none;
+        border: none;
+        margin-left: 16px;
+        position: relative;
+      }
+
+
+      .fullpage .fullpage-right .text2 .messageInput{
+        width: 200px;
+        height: 48px;
+        border: none;
+        color: #c4c4c4;
+        background: none;
+        outline: none;
+        margin-left: 16px;
+        position: relative;
+      }
+      .fullpage .fullpage-right .text2 .getMessage{
+        width: 80px;
+        height: 48px;
+        border: none;
+        color: #2019e15d;
+        background: none;
+        outline: none;
+        padding-right: 15px;
+        float: right;
+      }
+
+      .fullpage .fullpage-right .text2 .texteyeon{
+        background-image:url('../image/eyeon.png');
+        height: 24px;
+        width: 24px;
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+         cursor: pointer;
+       float: right;
+       position: relative;
+        bottom: 37.5px;
+         right:18px ;
+         display: none;
+        }
+        
+        .fullpage .fullpage-right .text2 .texteyeoff{
+        background-image:url('../image/eyeoff.svg');
+        height: 24px;
+        width: 24px;
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+         cursor: pointer;
+       float: right;
+       position: relative;
+        bottom: 37.5px;
+         right:18px ;
+         display: block;
+        }
+
+
+        .fullpage .full-link{
+           width: 360px;
+           height: 22px;
+              text-align: center;
+           padding: 40px 52px 0;
+
+        }
+        .fullpage .full-link li{
+           list-style: none;
+           float:left;
+
+
+        }
+        .fullpage .full-link li a{
+          text-decoration: none;
+          padding: 0 15px;
+          text-align: center;
+        }
+        .fullpage .full-link .line{
+          width: 1px;
+          height: 21px;
+          background: rgba(0,0,0,0.1);
+          display: block;
+          float: left;
+        }
+        .fullpage .otherwayLogin{
+          line-height: 1.3;
+          font-family: HWtext;
+          color: #838383;
+          margin-top: 40px;
+font-size: 16px;
+text-align: center;
+cursor: pointer;
+        }
+        .fullpage .third-login-list{
+          width: 100%;
+          height: 42px;
+          padding:30px 0 0 0;
+         position: relative;
+         margin: auto;
+         overflow:hidden;
+
+        }
+        .fullpage .third-login-list .huaweilogo{
+          color: red;
+          width: 40px;
+          height: 40px;
+          font-size: 30px;
+          border-radius: 50%;
+          border: 1px solid gray;
+          display: block;
+          float: left;
+          margin-left: 115px;
+          margin-right: 50px;
+          text-align: center;
+        }
+        .fullpage .third-login-list .huaweilogo:hover{
+          color: white;
+          background-color: red;
+        }
+        
+
+        .fullpage .third-login-list .wechatlogo{
+          background: url('../image/weixin.svg');
+background-repeat:no-repeat;
+          width: 40px;
+    height: 40px;
+          display: block;
+         float: left;
+        }
+.fullpage .third-login-list .wechatlogo:hover{
+cursor: pointer;
+background: url('../image/wechatfull.svg');
+background-repeat:no-repeat;
+background-size: cover;
+width: 40px;
+height: 40px;
+display: block;
+float: left;
+        }
+
+
+         
+        .fullpage .fullpage-right .change{
+          display: none;
+        }
+
+         .fullpage .fullpage-right .Change{
+             display: block;
+        }
+
+
+
+        .text3 {
+          margin-top: 28px;
+          background: rgba(0, 0, 0, 0.05);
+          border-radius: 1px;
+          height: 48px;
+          font-size: 14px;
+          border: 1px solid #fffbfb;
+          border-radius: 10px;
+        }
+  
+  
+         .text3 .text3box2 {
+          margin: 0;
+          padding: 0;
+          line-height: 1;
+          height: 48px;
+          width: 360px;
+          position: relative;
+        }
+         .text3 .text3box2 .input-left {
+          float: left;
+          padding-right:16px;
+          line-height: 42px;
+          height: 48px;
+          width: 95px;
+          position: relative;
+          margin-left: 10px;
+          display: block;
+        }
+  
+        .text3 .text3box2 .input-left .insidebox{
+          width: 260px;
+          height: 360px;
+          background-color: #fff;
+          border-radius: 8px;
+          border: 1px solid rgba(0,0,0,.06);
+          box-shadow: 0 0 2px 2px rgba(0,0,0,.06);
+          position: relative;
+          top: -6px;
+          left: 15px;
+          z-index: 1000;
+          font-size: 12px;
+          color: #333;
+          overflow:hidden;
+          display: none;
+  
+        }
+        .text3 .text3box2 .input-left .insidebox.active{
+          display: block;
+        }
+        .text3 .text3box2 .input-left .insidebox .list-module{
+          width: 255px;
+          height: 295px;
+          /* background-color: #256FFF; */
+          float: left;
+          display: block;
+          overflow-y: auto;
+        }
+        .text3 .text3box2 .input-left .insidebox .list-module .list-module-text{
+          font-size: 14px;
+          line-height: 20px;
+         cursor: pointer;
+         display: block;
+         padding: 8px 18px;
+        }
+        .text3 .text3box2 .input-left .insidebox .list-module .list-module-line{
+          
+          height: 1px;
+          width: 240px;
+          background-color: #e8e8e8;
+          float: right;
+        }
+     .insidebox .input-div{
+          width: 235px;
+          height: 36px;
+         margin: 12px 12px 18px 12px;
+          display: block;
+          overflow: hidden;
+          float: left;
+          background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  
+        }
+        .insidebox .input-div:hover{
+          border:1px solid blue;
+        }
+   
+        .insidebox .input-div .search-text{
+          
+          float: left;
+          padding: 0 58px 0 40px;
+          border: 1px solid #fff;
+          display: block;
+          
+          line-height: 36px;border: none;
+        }
+        .insidebox .input-div .noValue{
+            background: url('../image/ic_search.svg') left 12px center no-repeat;
+            background-size: auto;
+            background-size: 20px 20px;
+        }
+  
+        .input-left .font {
+          height: 48px;
+          width: 65px;
+          display: block;
+          float: left;
+          line-height: 48px;
+          overflow: hidden;
+        }
+        .text3box2 .backgrondcmg {
+          background: url(https://hnid-drcn.cloud.hihonor.com/CAS/up/idmw_rss_68/js/mobile_rss/vuebuild/img/ic_hint_dropdown.svg)
+            no-repeat;
+          width: 12px;
+          height: 7px;
+          background-position: 50%;
+          background-size: contain;
+          float: left;
+          position: absolute;
+          top: 17px;
+          right: 29px;
+        }
+        .text3 .text3box2 .input-left:hover {
+          cursor: pointer;
+        }
+        .text3box2 .shade {
+          width: 1px;
+          height: 27px;
+          display: block;
+          background: rgba(0, 0, 0, 0.1);
+          float: right;
+          margin-top: 10.5px;
+         
+        }
+        .text3box2 .input-content {
+          width: 225px;
+          position: relative;
+          height: 100%;
+          overflow: hidden;
+          float: left;
+        }
+  
+        .text3box2 .input-content .text3input {
+          color: #838383 !important;
+          font-size: 14px !important;
+          background: transparent;
+          border: 0px solid transparent;
+          background: none;
+          outline: none;
+          border: none;
+          line-height: 48px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        .ft {
+          background: rgba(0, 0, 0, 0.05);
+height: 110px;
+position: absolute;
+bottom: auto;
+width: 100%;
+min-width: 1024px;
+text-align: center;
+        }
+        .ft .ft-1{
+          margin-top: 30px;
+          text-align: center;
+line-height: 20px;
+height: 20px;
+text-decoration: none;
+color: #000!important;
+}
+.ft .ft-1 a{
+color: #000;
+
+}
+.ft .ft-1 .ft-em{
+font-size: 16px;
+color: rgba(0, 0, 0, 0.1);
+margin: 0 10px;
+}
+
+.ft .ft-2{
+line-height: 12px;
+height: 12px;
+margin-top: 10px;
+color: #000;
+opacity: 0.3;
+text-align: center;
+font-size: 14px;
+}
+
+.text2-1 input{
+  height: 40px;
+  width: 120px;
+  border: 0;
+}
